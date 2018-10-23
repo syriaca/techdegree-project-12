@@ -28,7 +28,7 @@ export default class SignUpForm extends Component {
     };
     
     handleSubmit(event) {
-        if(this.state.user.username == "" || this.state.user.password == "") {
+        if(this.state.user.username === "" || this.state.user.password === "") {
             event.preventDefault();
         } else {
             axios.post('/api/users', this.state.user)
