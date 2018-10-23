@@ -27,8 +27,7 @@ module.exports = {
     MONGO_URI: 'your Mlab uri' (ex: mongodb://<dbuser>:<dbpassword>@ds123963.mlab.com:23963/releafy)
 }
 ```
-4. Install Backend 
-type **npm install** in root directory to install backend **package.json**
-5. Install frontend, go to client directory and type **npm install** to install frontend **package.json**
-6. Type **npm run dev** to launch the site
+4. Type **npm install** in root directory to install backend **package.json**
+5. In client directory type **npm install** to install frontend **package.json**
+6. Type **npm start** to launch locoal site
 7. You're ready, go to [https://localhost:3000](https://localhost:3000)
