@@ -29,7 +29,6 @@ module.exports = {
 ```
 4. Install Backend 
 type **npm install** in root directory to install backend **package.json**
-5. Install frontend
-type **npm run client-install** in root directory to install frontend **package.json**
+5. Install frontend, go to client directory and type **npm install** to install frontend **package.json**
 6. Type **npm run dev** to launch the site
 7. You're ready, go to [https://localhost:3000](https://localhost:3000)
